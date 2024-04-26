@@ -2,11 +2,11 @@
 
 int main(void) {
 
-  int A, B;
+  long long int A, B;
 
-  scanf("%d %d", &A, &B);
+  scanf("%lld %lld", &A, &B);
 
-  printf("%d", (A+B)*(A-B));
+  printf("%lld", (A+B)*(A-B));
   
   return 0;
 }
