@@ -13,5 +13,4 @@ function solution(rsp) {
         else if(arr[i] === "0") result[i] = "5";
         else if(arr[i] === "5") result[i] = "2";
     }
-    return result.join("")
 }
