@@ -1,3 +1,29 @@
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).👍
- 
- 
+# Coding Test Repository
+
+
+ ### 목적
+ 1. 알고리즘 문제 해결 능력 향상
+ 2. 효율적인 코드 작성 습관 유지
+ 3. 문제별 접근법 및 개선 과정 기록
+
+### 사용 언어
+Python
+> 선택 이유:
+- 문법이 간결하고 가독성이 높음
+- 다양한 내장 함수와 자료구조 지원으로 알고리즘 풀이에 효율적
+- 입출력과 구현 문제에서 코드 길이를 줄일 수 있음
+
+> 활용 방식:
+- 대부분의 주요 풀이 코드 작성
+- 시간 복잡도 분석 및 최적화 실험
+
+
+JavaScript
+> 선택 이유:
+- 프론트엔드 개발자로서 익숙한 언어
+- 로직을 브라우저나 Node.js 환경에서도 테스트 가능
+- 다른 언어와의 사고 전환 훈련
+
+> 활용 방식:
+- 로직 검증용 보조 풀이
+- JS 문법 활용을 위한 문제 병행 풀이
