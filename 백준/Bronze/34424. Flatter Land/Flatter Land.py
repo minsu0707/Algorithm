@@ -1,4 +1,3 @@
 import sys
-n = int(sys.stdin.readline().strip())
-x = int(sys.stdin.readline().strip())
+n, x = map(int, sys.stdin.read().split())
 print((n-1) * x)
