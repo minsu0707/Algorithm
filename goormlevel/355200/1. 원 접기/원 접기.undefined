@@ -1,0 +1,8 @@
+import math
+
+AM, CM, BM = map(int, input().split())
+
+g = math.gcd(AM * BM, CM)
+a = AM*BM//g
+b = CM//g
+print(a, b)
