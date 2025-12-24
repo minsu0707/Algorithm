@@ -1,0 +1,20 @@
+const readline = require('readline');
+
+(async () => {
+	let rl = readline.createInterface({ input: process.stdin });
+	
+	for await (const line of rl) {
+		const [K, D1, D2] = line.split(" ").map(Number);
+
+		// 밑변 == x
+		const x = Math.abs(D1 - D2)/2 ;
+		
+		if(K >= x) {
+			console.log(4 * (K * K - x * x));
+		}
+		
+		rl.close();
+	}
+	
+	process.exit();
+})();
