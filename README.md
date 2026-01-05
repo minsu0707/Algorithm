@@ -1,4 +1,4 @@
-# 🧠 Coding Test Repository
+# Coding Test Repository
 
 ## 목적
 1. 알고리즘 문제 해결 능력 향상  
