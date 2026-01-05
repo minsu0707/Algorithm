@@ -1,0 +1,19 @@
+name: 🤖 AI Algorithm Mentor
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  ai-review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: choam2426/AI-Algorithm-Mentor@v5
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LLM_PROVIDER: google
+          MODEL_NAME: gemini-2.5-flash
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          REVIEW_LANGUAGE: korean
